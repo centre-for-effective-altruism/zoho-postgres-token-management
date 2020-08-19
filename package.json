@@ -1,14 +1,22 @@
 {
   "name": "@centreea/zoho-postgres-token-management",
-  "private": false,
   "version": "1.0.0",
+  "description": "Save Zoho SDK access tokens to an Amazon RDS database",
   "main": "index.js",
-  "license": "MIT",
-  "peerDependencies": {
-    "zcrmsdk": "^0.0.20"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/centre-for-effective-altruism/zoho-postgres-token-management"
+    "url": "git+https://github.com/centre-for-effective-altruism/zoho-postgres-token-management.git"
+  },
+  "author": "Sam Deere <dev@colophonemes.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/centre-for-effective-altruism/zoho-postgres-token-management/issues"
+  },
+  "homepage": "https://github.com/centre-for-effective-altruism/zoho-postgres-token-management#readme",
+  "peerDependencies": {
+    "zcrmsdk": "^0.0.20"
   }
 }
