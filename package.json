@@ -1,5 +1,6 @@
 {
-  "name": "zoho-postgres-token-management",
+  "name": "@centreea/zoho-postgres-token-management",
+  "private": false,
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
